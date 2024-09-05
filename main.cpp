@@ -172,7 +172,7 @@ private:
 
 void flush_queue_to_binary(std::string arg, bool isFutures) {
     while (true) {
-        std::this_thread::sleep_for(std::chrono::seconds(20));
+        std::this_thread::sleep_for(std::chrono::seconds(60));
 
         std::ofstream file(arg, std::ios::app | std::ios::binary);
         if (!file.is_open()) {
