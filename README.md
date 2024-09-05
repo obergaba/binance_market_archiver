@@ -17,7 +17,7 @@ To build the project, follow these steps:
    Ensure you have the necessary libraries installed:
    - OpenSSL
    - CMake
-   - wesocketpp
+   - Websocketpp
 
 2. **Clone the Repository**
    ```sh
@@ -39,4 +39,4 @@ To build the project, follow these steps:
 
 ## Viewing the Data
 
-After approximately 60 seconds, two files will be created in the build directory: ```trade_data_spot.bin``` and ```trade_data_futures.bin```. To view the contents of these files, use the provided ```read.cpp file```. Navigate one directory up with ```cd ..```, compile the file using ```g++ read.cpp```, and then run the resulting executable with a command line argument specifying the file you want to read, for example: ```./a.out trade_data_spot.bin```.
+After approximately 60 seconds, two files will be created in the build directory: ```trade_data_spot.bin``` and ```trade_data_futures.bin```. To view the contents of these files, use the provided ```read.cpp``` file. Navigate one directory up with ```cd ..```, compile the file using ```g++ read.cpp```, and then run the resulting executable with a command line argument specifying the file you want to read, for example: ```./a.out trade_data_spot.bin```.
