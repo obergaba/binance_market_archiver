@@ -23,7 +23,7 @@ To build the project, follow these steps:
 2. **Clone the Repository**
    ```sh
    git clone https://github.com/obergaba/binance_market_archiver.git
-   cd binance_market_data_archiver
+   cd binance_market_archiver
 3. **Create the build directory**
    ```sh
     mkdir build
