@@ -8,5 +8,4 @@ target_link_libraries(market_data_archiver
     PRIVATE
     OpenSSL::SSL
     OpenSSL::Crypto
-    #websocketpp
 )
