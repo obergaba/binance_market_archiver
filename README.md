@@ -6,7 +6,7 @@ This project connects to Binance WebSockets to stream data for both spot and fut
 
 Each thread in the system maintains its own queue of market data. This data includes the pair name, the top level of the order book—specifically, the best bid price and size, the best ask price and size, and their respective timestamps. The timestamp recorded represents when the message was received by our machine. Additionally, for futures channels, Binance provides its own server timestamp in milliseconds. This allows us to calculate the latency between Binance's server and our own machine.
 
-Every 60 seconds, there are two distinct threads that handle the respective queues. The spot data thread retrieves data from the spot market queue and writes it to a binary file, while the futures data thread retrieves data from the futures market queue and writes it to a separate binary file.
+Every 20 seconds, there are two distinct threads that handle the respective queues. The spot data thread retrieves data from the spot market queue and writes it to a binary file, while the futures data thread retrieves data from the futures market queue and writes it to a separate binary file.
 
 ## Build
 
