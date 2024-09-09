@@ -50,3 +50,5 @@ For getting the top level order book in binance there are 3 channel to consider:
 * From the Differential Depth Stream: provides incremental updates for the entire order book, it requires to manage all the order books locally. This stream includes timestamps for each update, but it does not update in real-time. Instead, it pushes updates every 100 milliseconds.
 
 Currently this system is using the bookTicker channel.
+
+For reference: https://dev.binance.vision/t/add-event-time-field-to-spot-websocket-book-streams/1390
