@@ -40,7 +40,7 @@ To build the project, follow these steps:
 
 ## Viewing the Data
 
-After approximately 60 seconds, two files will be created in the build directory: ```market_data_spot.bin``` and ```market_data_futures.bin```. To view the contents of these files, use the provided ```read.cpp```file. Navigate one directory up with ```cd ..```, compile the file using ```g++ read.cpp```, and then run the resulting executable with a command line argument specifying the file you want to read, for example: ```./a.out market_data_futures.bin```.
+After approximately 20 seconds, two files will be created in the build directory: ```market_data_spot.bin``` and ```market_data_futures.bin```. To view the contents of these files, use the provided ```read.cpp```file. Navigate one directory up with ```cd ..```, compile the file using ```g++ read.cpp```, and then run the resulting executable with a command line argument specifying the file you want to read, for example: ```./a.out market_data_futures.bin```.
 
 ## Issues and Consideration
 
